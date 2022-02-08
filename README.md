@@ -3,7 +3,12 @@ This module uses a malformed packet or timing attack to enumerate users on an Op
 
 # Usage
 ```
-$ cd ssh_enumerator 
-$ chmod +x time_based_enum.py 
-$ ./time_based_enum.py -w [wordlist]
+┌──(kali㉿kali)-[~]
+└─$ cd ssh_enumerator
+
+┌──(kali㉿kali)-[~/ssh_enumerator]
+└─$ chmod +x time_based_enum.py 
+
+┌──(kali㉿kali)-[~/ssh_enumerator]
+└─$ ./time_based_enum.py -w [wordlist]
 ```
